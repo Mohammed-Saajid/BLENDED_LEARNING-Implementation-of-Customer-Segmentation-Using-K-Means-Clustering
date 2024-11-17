@@ -1,41 +1,4 @@
-# BLENDED LEARNING
-# Implementation of Customer Segmentation Using K-Means Clustering
-<H3>NAME: MOHAMMED SAAJID S</H3>
-<H3>REGISTER NO.: 212223240093</H3>
-<H3>EX. NO.9</H3>
-<H3>DATE:</H3>
 
-## AIM:
-To implement customer segmentation using K-Means clustering on the Mall Customers dataset to group customers based on purchasing habits.
-
-## Equipments Required:
-1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Jupyter notebook
-
-## Algorithm
-1. **Load the Data**  
-   Import the dataset to start the clustering analysis process.
-
-2. **Explore the Data**  
-   Analyze the dataset to understand distributions, patterns, and key characteristics.
-
-3. **Select Relevant Features**  
-   Identify the most informative features to improve clustering accuracy and relevance.
-
-4. **Preprocess the Data**  
-   Clean and scale the data to prepare it for clustering.
-
-5. **Determine Optimal Number of Clusters**  
-   Use techniques like the elbow method to find the ideal number of clusters.
-
-6. **Train the Model with K-Means Clustering**  
-   Apply the K-Means algorithm to group data points into clusters based on similarity.
-
-7. **Analyze and Visualize Clusters**  
-   Examine and visualize the resulting clusters to interpret patterns and relationships.
-   
-## Program:
-```py
 # Import necessary libraries
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -100,13 +63,3 @@ plt.xlabel('Annual Income (k$)')
 plt.ylabel('Spending Score (1-100)')
 plt.legend(title='Cluster')
 plt.show()
-
-```
-
-## Output:
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-## Result:
-Thus, customer segmentation was successfully implemented using K-Means clustering, grouping customers into distinct segments based on their annual income and spending score. 
